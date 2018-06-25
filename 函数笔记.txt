@@ -1,0 +1,23 @@
+Math.random()       返回值是一个大于等于0，且小于1的随机数
+
+Math.random()*N    返回值是一个大于等于0，且小于N的随机数
+
+ 
+
+Math.round()         四舍五入的取整
+Math.ceil()            向上取整，如Math.cell(0.3)=1 、又如Math.ceil(Math.random()*10) 返回1~10
+Math.floor()           向下取整，如Math.floor(0.3)=0、又如Math.floor(Math.random()*10)返回0~9
+
+ 
+
+引申：
+Math.round(Math.random()*15)+5;   返回5~20随机数
+
+Math.round(Math.random()*(y-x))+x;   返回x~y的随机数，包换负数。
+
+parseInt() 函数可解析一个字符串，并返回一个整数。
+
+示例：返回
+
+	parseInt(Math.random()*4)+1;
+
